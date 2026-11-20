@@ -1,0 +1,22 @@
+# Ignore data files anywhere in the project
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.xlsm
+*.parquet
+*.feather
+*.json
+*.jsonl
+*.sqlite
+*.db
+
+# Exception: keep a small sample if you ever want one (optional)
+!data/sample_*.csv
+
+# Environments & secrets
+.env
+.venv/
+venv/
+__pycache__/
+.DS_Store
